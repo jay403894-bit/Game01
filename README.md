@@ -42,4 +42,9 @@ Requires Windows x64, Visual Studio 2022+ with the C++ workload, and the JLib li
 
 ## License
 
-BSD 3-Clause.
+Source code: **BSD 3-Clause** — use it, fork it, ship it commercially.
+
+Assets are licensed separately by their creators and are **not** covered by that license. Most are
+from the Brackeys CC0 pack; one jump sound is CC-BY 3.0 by qubodup and its attribution must be
+retained in any redistribution. Full details in `x64/Release/Sound/LICENSE & CREDITS.txt` and
+`x64/Release/textures/LICENSE & CREDITS.txt`.
