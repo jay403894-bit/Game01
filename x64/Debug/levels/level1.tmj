@@ -1,0 +1,313 @@
+﻿{
+    "version":  "1.10",
+    "orientation":  "orthogonal",
+    "width":  24,
+    "tileheight":  16,
+    "nextlayerid":  3,
+    "type":  "map",
+    "height":  6,
+    "tilewidth":  16,
+    "tilesets":  [
+                     {
+                         "firstgid":  1,
+                         "name":  "structural",
+                         "columns":  4,
+                         "tilecount":  4,
+                         "tileheight":  16,
+                         "tilewidth":  16,
+                         "tiles":  [
+                                       {
+                                           "id":  0,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "solid",
+                                                                  "type":  "string"
+                                                              }
+                                                          ]
+                                       },
+                                       {
+                                           "id":  1,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "platform",
+                                                                  "type":  "string"
+                                                              }
+                                                          ]
+                                       },
+                                       {
+                                           "id":  2,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "slopeUpRight",
+                                                                  "type":  "string"
+                                                              }
+                                                          ]
+                                       },
+                                       {
+                                           "id":  3,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "slopeUpLeft",
+                                                                  "type":  "string"
+                                                              }
+                                                          ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "tiledversion":  "1.10.2",
+    "layers":  [
+                   {
+                       "width":  24,
+                       "height":  6,
+                       "id":  1,
+                       "type":  "tilelayer",
+                       "visible":  true,
+                       "data":  [
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    3,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    3,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    0,
+                                    0,
+                                    0,
+                                    3,
+                                    2,
+                                    2,
+                                    2,
+                                    2,
+                                    2,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    3,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    1,
+                                    0
+                                ],
+                       "y":  0,
+                       "name":  "Tiles",
+                       "x":  0,
+                       "opacity":  1
+                   },
+                   {
+                       "x":  0,
+                       "id":  2,
+                       "type":  "objectgroup",
+                       "visible":  true,
+                       "y":  0,
+                       "draworder":  "topdown",
+                       "name":  "Objects",
+                       "objects":  [
+                                       {
+                                           "x":  48,
+                                           "height":  0,
+                                           "id":  1,
+                                           "type":  "",
+                                           "visible":  true,
+                                           "point":  true,
+                                           "y":  16,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "coin",
+                                                                  "type":  "string"
+                                                              }
+                                                          ],
+                                           "name":  "",
+                                           "width":  0,
+                                           "rotation":  0
+                                       },
+                                       {
+                                           "x":  64,
+                                           "height":  0,
+                                           "id":  2,
+                                           "type":  "",
+                                           "visible":  true,
+                                           "point":  true,
+                                           "y":  32,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "player",
+                                                                  "type":  "string"
+                                                              }
+                                                          ],
+                                           "name":  "",
+                                           "width":  0,
+                                           "rotation":  0
+                                       },
+                                       {
+                                           "x":  272,
+                                           "height":  0,
+                                           "id":  3,
+                                           "type":  "",
+                                           "visible":  true,
+                                           "point":  true,
+                                           "y":  32,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "chaseEnemy",
+                                                                  "type":  "string"
+                                                              }
+                                                          ],
+                                           "name":  "",
+                                           "width":  0,
+                                           "rotation":  0
+                                       },
+                                       {
+                                           "x":  176,
+                                           "height":  0,
+                                           "id":  4,
+                                           "type":  "",
+                                           "visible":  true,
+                                           "point":  true,
+                                           "y":  64,
+                                           "properties":  [
+                                                              {
+                                                                  "name":  "type",
+                                                                  "value":  "patrolEnemy",
+                                                                  "type":  "string"
+                                                              }
+                                                          ],
+                                           "name":  "",
+                                           "width":  0,
+                                           "rotation":  0
+                                       }
+                                   ],
+                       "opacity":  1
+                   }
+               ],
+    "nextobjectid":  5,
+    "infinite":  false,
+    "renderorder":  "right-down"
+}
