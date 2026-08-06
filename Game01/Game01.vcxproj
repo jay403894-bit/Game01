@@ -118,15 +118,15 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
-      <AdditionalIncludeDirectories>C:\libs\Geometry\include;C:\libs\Scene\include\;C:\libs\Sound\include;C:\libs\Threads\include;C:\libs\Renderer\include;C:\libs\Input\include;C:\libs\DirectX\include;C:\libs\DirectXTex\include;C:\libs\Assets\include;C:\libs\PlatformerPhysics2D\include;C:\libs\Time\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\libs\Geometry\include;C:\libs\Scene\include\;C:\libs\Sound\include;C:\libs\Scheduler\include;C:\libs\Renderer\include;C:\libs\Input\include;C:\libs\DirectX\include;C:\libs\DirectXTex\include;C:\libs\Assets\include;C:\libs\PlatformerPhysics2D\include;C:\libs\Time\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Time.lib;Scene.lib;Sound.lib;Threads.lib;Renderer.lib;Input.lib;DirectXTex.lib;PlatformerPhysics2D.lib;d3d12.lib;dxgi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\libs\Time\lib\debug;C:\libs\Scene\lib\debug;C:\libs\Sound\lib\debug;C:\libs\Threads\lib\debug;C:\libs\Renderer\lib\debug;C:\libs\Input\lib\debug;C:\libs\DirectXTex\debug;C:\libs\PlatformerPhysics2D\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Time.lib;Scene.lib;Sound.lib;Scheduler.lib;Renderer.lib;Input.lib;DirectXTex.lib;PlatformerPhysics2D.lib;d3d12.lib;dxgi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\libs\Time\lib\debug;C:\libs\Scene\lib\debug;C:\libs\Sound\lib\debug;C:\libs\Scheduler\lib\debug;C:\libs\Renderer\lib\debug;C:\libs\Input\lib\debug;C:\libs\DirectXTex\debug;C:\libs\PlatformerPhysics2D\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
@@ -142,15 +142,15 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
-      <AdditionalIncludeDirectories>C:\libs\Geometry\include;C:\libs\Scene\include\;C:\libs\Sound\include;C:\libs\Threads\include;C:\libs\Renderer\include;C:\libs\Input\include;C:\libs\DirectX\include;C:\libs\DirectXTex\include;C:\libs\Assets\include;C:\libs\PlatformerPhysics2D\include;C:\libs\Time\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\libs\Geometry\include;C:\libs\Scene\include\;C:\libs\Sound\include;C:\libs\Scheduler\include;C:\libs\Renderer\include;C:\libs\Input\include;C:\libs\DirectX\include;C:\libs\DirectXTex\include;C:\libs\Assets\include;C:\libs\PlatformerPhysics2D\include;C:\libs\Time\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Time.lib;Scene.lib;Sound.lib;Threads.lib;Renderer.lib;Input.lib;DirectXTex.lib;PlatformerPhysics2D.lib;d3d12.lib;dxgi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\libs\Time\lib\release;C:\libs\Scene\lib\release;C:\libs\Sound\lib\release;C:\libs\Threads\lib\release;C:\libs\Renderer\lib\release;C:\libs\Input\lib\release;C:\libs\DirectXTex\release;C:\libs\PlatformerPhysics2D\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Time.lib;Scene.lib;Sound.lib;Scheduler.lib;Renderer.lib;Input.lib;DirectXTex.lib;PlatformerPhysics2D.lib;d3d12.lib;dxgi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\libs\Time\lib\release;C:\libs\Scene\lib\release;C:\libs\Sound\lib\release;C:\libs\Scheduler\lib\release;C:\libs\Renderer\lib\release;C:\libs\Input\lib\release;C:\libs\DirectXTex\release;C:\libs\PlatformerPhysics2D\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
