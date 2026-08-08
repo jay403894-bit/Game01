@@ -1,7 +1,11 @@
-<Solution>
+﻿<Solution>
   <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Development" />
+    <BuildType Name="Release" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Game01/Game01.vcxproj" Id="2213197a-1d36-41e0-b1e5-4e899cb2f515" />
 </Solution>
+
