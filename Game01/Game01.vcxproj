@@ -64,7 +64,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Import Project="C:\JLib\UseJLib.props" />
+  <Import Project="$(MSBuildProjectDirectory)\FindJLib.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
