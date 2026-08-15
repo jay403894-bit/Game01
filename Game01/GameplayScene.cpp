@@ -1591,6 +1591,7 @@ void GameplayScene::Draw()
 		item.size.y *= camera.zoom;
 		renderer.Submit(item);
 	}
+
 	auto screenSize = renderer.GetScreenSize();
 	BatchItem uiCoin;
 	uiCoin.mesh = quadMesh;              // <- was missing
